@@ -7,7 +7,6 @@ namespace CSharpMortgageCalc.Models
 {
     public class LoanPayment
     {
-        // properties
         public int Month { get; set; }
         public decimal Payment { get; set; }
         public decimal MonthlyPrincipal { get; set; }

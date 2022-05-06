@@ -7,7 +7,6 @@ namespace CSharpMortgageCalc.Models
 {
     public class Loan
     {
-        // properties
         public decimal Amount { get; set; }
         public decimal Rate { get; set; }
         public int Term { get; set; }
